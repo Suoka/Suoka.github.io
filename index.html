@@ -3,20 +3,79 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Citations</title>
+  <title>Dans Ton Café - Vous avez soif? Nous aussi.</title>
+  <meta name="description" content="Votre boisson chaude livrée à domicile.">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 </head>
 
 <body>
-  <h1>Le Seigneur des anneaux</h1>
-  <h2>Un peu de tout</h2>
-  <img src="images/gimli.jpg">
-  <p>"Attendez ma venue aux premières lueurs du cinquième jour. A l'aube, regardez à l'Est." <b>- Gandalf"</b></p>
-  <ul>
-    <li><a href="https://fr.wikiquote.org/wiki/Le_Seigneur_des_anneaux" target="_blank">Citations</a></li>
-    <li><a href="https://www.youtube.com/watch?v=v15EER36RMk" target="_blank">Notre Roi</a></li>
-  </ul>
-  <p>"Il est bizarre ce sol, il est pas palpable." <b>- Numerobis</b> (quote qui n'a strictement rien à faire là)</p>
+
+  <div id="banner">
+    <i class="fas fa-coffee"></i>
+    <h1>Dans Ton Café</h1>
+    <h2>Vous avez soif? Nous aussi.</h2>
+    <button type="button" class="btn btn-outline-light"><a href=#ancre>Nos boissons</a></button>
+    <button type="button" class="btn btn-outline-light"><a href=#ancre2>Commander</a></button>
+    <button type="button" class="btn btn-outline-light"><a href=#ancre3>A propos de nous</a></button>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="titre">
+          <p id="ancre">Nos boissons</p>
+          <div class="sous-titre">
+            <p>Une boisson pour toutes vos humeurs.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+        <div class="card">
+          <img class="card-img" src="images/attractive-bar-barista-296888.jpg">
+          <h3>Expresso</h3>
+          <p>Pour vous réveiller.</p>
+          <p>2€</p>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+        <div class="card">
+          <img class="card-img" src="images/autumn-autumn-leaf-autumn-leaves-239584.jpg">
+          <h3>Chocolat chaud</h3>
+          <p>Pour un peu de douceur.</p>
+          <p>4€</p>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+        <div class="card">
+          <img class="card-img" src="images/blur-brew-close-up-428615.jpg">
+          <h3>Thé vert</h3>
+          <p>Pour allier l'utile à l'agréable.</p>
+          <p>3€</p>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="titre">
+          <p id="ancre2">Commander</p>
+          <div class="sous-titre">
+            <p>A vous de choisir.</p>
+          </div>
+        </div>
+        <div class="typeform-widget" data-url="https://sandra1017.typeform.com/to/lLQmJy" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=lLQmJy&utm_source=typeform.com-12785824-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer">
+      <div class="titre2">
+        <p id="ancre3">A propos de nous</p>
+      </div>
+      <p>Une chose nous motive: la caféine. Mais il en faut pour tous les goûts! Donc sentez-vous à l'aise en commandant aussi du chocolat chaud ou du thé vert.</p>
+      <p>Une boisson chaude ne vous suffit pas? Toute l'équipe vous recommande de vous rendre sur le site <a href="https://ipouley.github.io/" target="_blank">CTB - Commande Ton Breakfast</a> pour accompagner votre votre boisson chaude d'un délicieux petit déjeuner.</p>
+      <p>Pour plus d'informations, nous contacter à l'adresse <a href="mailto:sandra.cheroutre@hotmail.fr">sandra.cheroutre@hotmail.fr</a></p>
+    </div>
 </body>
 
 </html>
